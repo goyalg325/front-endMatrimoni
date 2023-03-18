@@ -1,0 +1,131 @@
+*{padding: 0;margin: 0;box-sizing: border-box;font-family: sans-serif;}
+header{
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(wp4522970-indian-wedding-couple-wallpapers.jpg);
+    background-size: cover;
+    position: relative;
+}
+.info{
+    color: white;
+    font-size: 20px;
+    padding: 20px,70px;
+cursor: pointer;
+}
+.info span{
+    margin: 0 10px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 0 70px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-size: 2em;
+    font-family: normal;
+    letter-spacing:3px;
+}
+.logo i{
+    color:gold;
+}
+.menu a{
+    text-decoration: none; 
+    /* to remove underlines */
+    color: white;
+    padding:10px 20px ;
+    font-size : 20px;
+    transition: 0.4s;
+}
+.menu a:last-child{
+    background: gold;
+    border-radius: 8px;
+}
+.menu a:hover{
+    background: gold;
+    border-radius: 8px;
+
+}
+.box{
+    background: white;
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: 20%;
+    right:5%;
+   
+}
+form{
+    width: 100%;
+}
+form input[type="text"]{
+    width: 100%;
+    padding: 20px 10px;
+    margin:10px 0;
+    outline: none;
+    border: none;
+    background: rgba(0,0,0,0.1);
+}
+form input[type="submit"]{
+    width: 100%;
+    padding: 20px 10px;
+    margin:10px 0;
+    outline: none;
+    border: none;
+    background:gold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+form input[type="submit"]:hover{
+    background: transparent;
+    border: 1px solid grey;
+    color: black;
+}
+.box span{
+    color:red;
+    cursor: pointer;
+    }
+    .box p{
+        margin-left: 5px;
+    }
+    .box h2{
+        margin-top: 10px;
+    }
+    .htext{
+        position: absolute;
+        top:30%;
+        left: 5%;
+        max-width:625px;
+        color: white;
+    }
+.htext h1{
+    font-size: 2em;
+}
+.htext h2{
+    font-size: 3.5em;
+}
+.htext span{
+    color: gold;
+}
+.htext p{
+    margin: 15px 0;
+    line-height: 2em;
+}
+.htext a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px ;
+    border:1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    letter-spacing: 2px;
+transition: 0.4s;
+}
+.htext a:hover{
+    background: white;
+    color: black;
+}
